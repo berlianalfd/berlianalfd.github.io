@@ -1,0 +1,169 @@
+
+/*Navbar--------*/
+.navbar{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.judul h2{
+    margin: 20px auto 20px auto;
+    width: 200px;
+    border-bottom: 4px solid rgb(212, 212, 212);
+}
+
+.judul p{
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 12px;
+}
+
+/*About--------------------------------------------*/
+.pkanan, .pkiri{
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 0.5s;
+}
+
+.pkanan{
+    transform: translate(50px,0);
+}
+
+.pkanan.ada , .pkiri.ada{
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+/*imgbar------------*/
+.imgbar{
+    padding-top: 100px;
+    height: 450px;
+    background-image: url(Img/gambar4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.imgbar img{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.imgbar h1, .imgbar h5{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.imgbar img:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.imgbar h1, .imgbar h5{
+    color: white;
+}
+
+/*Side Bar------------*/
+.sidegambar img{
+    width: 100%;
+    height: 300px;
+}
+
+.teks{
+    opacity: 0;
+    transform: translate(50px,0);
+    transition: 0.3s;
+}
+
+.teks.muncul3{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/*Cardbox------------*/
+.conten{
+    opacity: 0;
+    transform: translate(0,50px);
+    transition: 1s;
+}
+
+.conten.muncul2{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.conten .isian{
+    margin: 20px auto;
+}
+
+.isian{
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.isian:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.isian img{
+    margin: 20px 0;
+    width: 50px;
+    height: 50px;
+}
+
+.isian button{
+    padding: 2px 30px;
+    border-radius: 10px;
+    color: white;
+    border: 0 solid transparent;
+    background-color: rgb(212, 212, 212);
+}
+
+/*Thumbnail-----------*/
+.thumb .img-thumbnail{
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 0.5s;
+}
+
+.thumb .img-thumbnail.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.thumbisi img{
+    margin-bottom: 10px;
+}
+
+.thumbisi img:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+/*Contact*/
+.contact{
+    margin-bottom: 50px;
+}
+/*Footer----------------*/
+footer{
+    width: 100%;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.isinya p{
+    padding-top :10px;
+}
+
