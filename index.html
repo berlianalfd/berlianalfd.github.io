@@ -591,7 +591,7 @@
             color: var(--primary-color);
             margin-bottom: 0.625rem; /* 10px */
         }
-
+ 
         .portfolio-info p {
             font-size: 1rem; /* Responsif dengan REM */
             color: #666;
@@ -849,13 +849,12 @@
                 <ul class="nav-links">
                     <li><a href="#hero">Beranda</a></li>
                     <li><a href="#about">Tentang</a></li>
-                    <li><a href="#education">Edukasi</a></li>
+                    <li><a href="#education">Pendidikan</a></li>
                     <li><a href="#experience">Pengalaman</a></li>
                     <li><a href="#portfolio">Proyek</a></li>
-                    <li><a href="#skills">Keahlian</a></li>
+                    <!-- <li><a href="#skills">Keahlian</a></li> -->
                     <li><a href="#certifications">Sertifikasi</a></li>
                     <li><a href="#organization">Organisasi</a></li>
-                    <li><a href="#volunteer">Relawan</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
                 <div class="burger" id="burger-menu">
@@ -914,7 +913,7 @@
 
         <section id="education" class="education">
             <div class="container">
-                <h2>Edukasi</h2>
+                <h2>Pendidikan</h2>
                 <div class="item-list">
                     <div class="list-item">
                         <h3>Politeknik Negeri Bandung</h3>
@@ -955,27 +954,18 @@
                     <div class="experience-header">
                         <img src="gik.jpg" alt="Logo CV Garuda Infinity Kreasindo" class="company-logo">
                         <div>
-                            <h3>Software Quality Assurance Tester - CV Garuda Infinity Kreasindo (Internship)</h3>
+                            <h3>Asisstant Project Manager (Intern) - CV Garuda Infinity Kreasindo</h3>
                             <p class="duration">Juni 2024 - Okt 2024</p>
                         </div>
                     </div>
-                    <ul>
-                        <li>Melakukan pengujian fungsional, regresi, dan otomatisasi menggunakan Selenium dan Katalon.</li>
-                        <li>Membuat test case, mengidentifikasi bug, dan bekerja dengan tim pengembang untuk memastikan keandalan perangkat lunak.</li>
-                        <li>Meningkatkan kualitas perangkat lunak dengan menangkap masalah kritis lebih awal, mengurangi kesalahan pasca-rilis.</li>
-                    </ul>
-                    <h3>UI/UX Designer - CV Garuda Infinity Kreasindo (Internship)</h3>
-                    <ul>
-                        <li>Merancang antarmuka yang user-friendly untuk aplikasi GIK Talent HRIS.</li>
-                        <li>Berkolaborasi dengan manajer proyek, pemilik produk, dan pengembang untuk memastikan keselarasan dan implementasi yang mulus.</li>
-                        <li>Menghasilkan desain yang intuitif dan meningkatkan kepuasan pengguna berdasarkan umpan balik internal.</li>
-                    </ul>
-                    <h3>Technical Writer - CV Garuda Infinity Kreasindo (Internship)</h3>
-                    <ul>
-                        <li>Membuat manual pengguna yang jelas dan praktis untuk aplikasi GIK Talent HRIS.</li>
-                        <li>Mendokumentasikan panduan fitur dan instruksi langkah demi langkah untuk mendukung pengguna akhir.</li>
-                        <li>Menyediakan dokumentasi yang lengkap dan mudah diakses.</li>
-                    </ul>
+                    <h3>UI/UX Designer - CV Garuda Infinity Kreasindo </h3>
+                    <p>Merancang tampilan aplikasi HRIS GIK Talent sesuai keinginan user agar lebih mudah digunakan dan enak dilihat. Dalam prosesnya, saya bekerja sama dengan project manager dan product owner untuk menyesuaikan desain dengan kebutuhan proyek, serta berkolaborasi dengan developer supaya desain bisa terwujud dengan baik.</p>
+
+                    <h3>Quality Assurance - CV Garuda Infinity Kreasindo </h3>
+                    <p>Saya melakukan pengujian fungsional, regresi, dan otomatisasi untuk aplikasi HRIS GIK Talent. Task mencakup membuat dan menjalankan test case, menemukan serta melaporkan bug, lalu berkoordinasi dengan tim developer supaya aplikasi tetap stabil dan berkualitas. Dalam prosesnya, saya menggunakan tools seperti Selenium dan Katalon, yang membuat pengujian lebih cepat dan efektif, sekaligus melatih kemampuan saya dalam software testing, problem solving, dan kerja sama tim.</p>
+
+                    <h3>Technical Writer - CV Garuda Infinity Kreasindo</h3>
+                    <p>Menyusun user manual yang jelas dan lengkap untuk aplikasi HRIS GIK Talent. Pekerjaan ini mencakup membuat panduan langkah demi langkah, mendokumentasikan fungsi tiap fitur, serta memastikan semua materi akurat dan mudah dipahami pengguna.</p>
                 </div>
             </div>
         </section>
@@ -985,18 +975,18 @@
                 <h2>Proyek Terbaru</h2>
                 <div class="portfolio-grid">
                     <div class="portfolio-item">
-                        <img src="https://via.placeholder.com/320x220" alt="Thumbnail Proyek Ship Trajectory Estimation System">
+                        <img src="len.jpg" alt="Thumbnail Proyek Ship Trajectory Estimation System">
                         <div class="portfolio-info">
-                            <h3>Final Project: Ship Trajectory Estimation System</h3>
-                            <p>Mengembangkan estimasi trajektori kapal menggunakan Extended Kalman Filter (EKF) dengan pemodelan yang sadar kelengkungan. Menerapkan penyesuaian adaptif matriks kovarians (Q dan R) untuk meningkatkan akurasi prediksi. Membangun Aplikasi berbasis MATLAB untuk Estimasi Prediktif untuk tujuan simulasi. Melakukan penelitian bekerja sama dengan PT LEN Industri untuk mengeksplorasi prediksi sistem.</p>
-                            <a href="#" target="_blank" class="btn-small">Lihat Proyek</a>
+                            <h3>Final Project: Ship Trajectory Estimation System with PT Len IoT</h3>
+                            <p>Mengoptimalkan Extended Kalman Filter (EKF) untuk estimasi lintasan kapal dengan mengintegrasikan pemodelan kelengkungan bumi serta penyesuaian dinamis pada matriks kovarian Q/R. Pendekatan ini menggunakan koordinat Earth-Centered Earth-Fixed (ECEF) dan tuning adaptif untuk meningkatkan akurasi prediksi meski dalam kondisi data terbatas. Hasil simulasi menunjukkan bahwa pemodelan kelengkungan bumi hanya memberi dampak kecil pada jarak dekat, tetapi penyesuaian noise secara adaptif mampu menurunkan Root Mean Square Error (RMSE) hingga di bawah 1 meter. Metode ini menawarkan nilai praktis untuk kebutuhan pelacakan kapal real-time dan sistem manajemen tempur (Combat Management Systems/CMS).<p>
+                            <!-- <a href="#" target="_blank" class="btn-small">Lihat Proyek</a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="skills">
+        <!-- <section id="skills" class="skills">
             <div class="container">
                 <h2>Keahlian Saya</h2>
                 <div class="skill-grid">
@@ -1077,26 +1067,40 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="certifications" class="certifications">
             <div class="container">
                 <h2>Sertifikasi</h2>
                 <div class="item-list">
-                   <div class="list-item">
+                   
+                    <div class="list-item">
                         <h3>Politeknik Negeri Bandung</h3>
-                        <p class="duration">2024</p>
-                        <ul>
-                            Membuat makalah "Real-time Convolutional Neural Networks for Emotion Classification Integrated with YouTube Content Recommendation Based on Emotion".
-                        </ul>
+                        <p class="duration">2025</p>
                         <img src="SKPI.jpg" alt="Sertifikat Seminar CNNs" class="certificate">
                     </div>
+                
+                    <div class="list-item">
+                        <h3>Wadhwani Foundation - Employability Skills</h3>
+                        <p class="duration">2024</p>
+                        <img src="wf.jpg" alt="Sertifikat Seminar CNNs" class="certificate">
+                    </div>
 
+                    <div class="list-item">
+                        <h3>Politeknik Negeri Bandung</h3>
+                        <p class="duration">2024</p>
+                        <img src="paper.jpg" alt="Sertifikat Seminar CNNs" class="certificate">
+                    </div>
+                
+                    <div class="list-item">
                         <h3>KOMINFO</h3>
                         <p class="duration">2021</p>
-                        <ul>
-                            <li>Berpartisipasi dalam Program Literasi Digital Nasional yang diselenggarakan oleh KOMINFO dan Siberkreasi dengan tema "Untuk Indonesia #Makin CakapDigital".</li>
-                        </ul>
+                        <img src="kominfo.jpg" alt="Sertifikat Seminar CNNs" class="certificate">
+                    </div>
+                    
+                    
+
+                      
                     </div>
                 </div>
             </div>
@@ -1110,53 +1114,28 @@
                         <h3>Himpunan Mahasiswa Teknik Komputer (HIMAKOM)</h3>
                         <p class="subtitle">Wakil Ketua Departemen Hubungan Eksternal</p>
                         <p class="duration">2023 - 2024</p>
-                        <ul>
-                            <li>Berpartisipasi dalam pengembangan pimpinan komunikasi eksternal agensi.</li>
-                        </ul>
                     </div>
                     <div class="list-item">
                         <h3>Himpunan Mahasiswa Teknik Komputer (HIMAKOM)</h3>
                         <p class="subtitle">Staf Junior Departemen Hubungan Eksternal</p>
                         <p class="duration">2022 - 2023</p>
-                        <ul>
-                            <li>Mendukung inisiatif kemitraan eksternal dan membantu membangun kolaborasi dengan organisasi di luar kampus.</li>
-                            <li>Berpartisipasi dalam mengorganisir acara dan menjaga komunikasi dengan pemangku kepentingan eksternal.</li>
-                            <li>Berkontribusi pada diskusi tim dan perencanaan untuk meningkatkan strategi keterlibatan eksternal.</li>
-                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="volunteer" class="volunteer">
-            <div class="container">
-                <h2>Pengalaman Komite & Relawan</h2>
                 <div class="item-list">
                     <div class="list-item">
                         <h3>Pengmas - Departemen Hubungan Eksternal, HIMAKOM</h3>
                         <p class="subtitle">PIC of Pengmas (Pengabdian Masyarakat)</p>
                         <p class="duration">2023</p>
-                        <ul>
-                            <li>Mengkoordinasikan inisiatif sosial seperti kegiatan bersih-bersih desa dan penjualan buku & pakaian bekas untuk mendukung ekonomi lokal.</li>
-                            <li>Mengelola perencanaan proyek, koordinasi tim, dan pelaksanaan acara untuk memastikan keberhasilan program dampak sosial.</li>
-                        </ul>
                     </div>
                     <div class="list-item">
                         <h3>Markisa (Mari Kita Peduli Sesama) - Departemen Hubungan Eksternal, HIMAKOM</h3>
                         <p class="subtitle">Tim Dokumentasi dan Publikasi</p>
                         <p class="duration">2022</p>
-                        <ul>
-                            <li>Bertanggung jawab atas dokumentasi dan publikasi untuk acara guna membantu jangkauan penawaran pendidikan kami.</li>
-                        </ul>
                     </div>
                     <div class="list-item">
                         <h3>Misi Kemanusiaan - Departemen Hubungan Eksternal, HIMAKOM</h3>
                         <p class="subtitle">Tim Divisi Sponsorship</p>
                         <p class="duration">2022</p>
-                        <ul>
-                            <li>Bertanggung jawab untuk membangun kemitraan dan mendapatkan sponsor untuk mendukung keberhasilan acara.</li>
-                            <li>Berkolaborasi dengan tim hubungan eksternal untuk memastikan ketersediaan dana dan sumber daya.</li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -1170,7 +1149,7 @@
                     <a href="mailto:berlianaelfd23@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> berlianaelfd23@gmail.com</a>
                     <a href="tel:+6285810493317" class="contact-link"><i class="fas fa-phone"></i> +62 858-1049-3317</a>
                     <a href="https://www.linkedin.com/in/berlianalfd" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> Berlianalfd</a>
-                    <a href="https://github.com/your-github-username" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://github.com/berlianalfd" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
         </section>
