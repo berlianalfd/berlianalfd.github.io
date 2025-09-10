@@ -13,8 +13,9 @@
            VARIABEL CSS (Custom Properties)
            =============================== */
         :root {
-            --primary-color: #F7BFEF; /* Pinkish Purple lembut */
-            --secondary-color: #E0BBE4; /* Ungu lebih lembut */
+            --primary-color: #c48cbb; /* Pinkish Purple lembut */
+            --secondary-color: #bb84c1; /* Ungu lebih lembut */
+            --third-color: #633c68;
             --text-color: #4A4A6A; /* Abu-abu keunguan gelap */
             --light-bg: #FDF6F9; /* Latar belakang pinkish putih sangat terang */
             --dark-bg: #8E44AD; /* Ungu kaya untuk footer */
@@ -116,6 +117,11 @@
 
         .btn-secondary {
             background-color: var(--secondary-color);
+            margin-left: 0.9375rem; /* 15px */
+        }
+
+        .btn-third {
+            background-color: var(--third-color);
             margin-left: 0.9375rem; /* 15px */
         }
 
@@ -568,6 +574,16 @@
             padding: 1.5625rem; /* 25px */
         }
 
+        .list-item img.certificate {
+            margin-top: 10px;
+            width: 100%;       /* full mengikuti lebar parent */
+            max-width: 800px;  /* batasi biar nggak kebesaran */
+            height: auto;      /* biar proporsional */
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
         .portfolio-info h3 {
             /* Responsive font-size for portfolio title */
             font-size: clamp(1.2rem, 3.5vw, 1.6rem); /* Min: 19.2px, Preferred: 3.5% vw, Max: 25.6px */
@@ -853,16 +869,27 @@
 
     <main>
         <section id="hero" class="hero">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="hero-content">
                     <h1>Halo, saya Berliana Elfada</h1>
                     <p>Sebagai seorang insinyur informatika, saya familiar dengan pengembangan sistem, pemodelan algoritma, dan pemrosesan data di bidang teknik, teknologi, dan aplikasi real-time.</p>
                     <a href="#portfolio" class="btn">Lihat Proyek Saya</a>
                 </div>
                 <div class="hero-image">
-                    <img src="https://via.placeholder.com/350" alt="Foto Profil Berliana Elfada">
+                    <img src="itsmee.jpg" alt="Foto Profil Berliana Elfada">
+                </div>
+            </div> -->
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Halo!👋 Saya <span>Berliana Elfada</span></h1>
+                    <p>Fresh Graduate Teknik Informatika</p>
+                    <a href="#about" class="btn btn-third">Kenali Saya Lebih Lanjut</a>
+                </div>
+                <div class="hero-image">
+                    <img src="itsmee.jpg" alt="Foto Profil Berliana Elfada">
                 </div>
             </div>
+
         </section>
 
         <section id="about" class="about-me">
@@ -870,12 +897,16 @@
                 <h2>Tentang Saya</h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Saya memiliki reputasi yang sangat baik dalam memecahkan masalah kompleks dan aktif berpartisipasi dalam organisasi serta forum profesional.</p>
-                        <p>Berpengalaman dalam jaminan kualitas, desain UI/UX, penulisan manuskrip, artikel ilmiah, presentasi, manual pengguna, dokumentasi teknis, dan pengembangan estimasi prediktif.</p>
-                        <a href="CV_Berliana Elfada.pdf" target="_blank" class="btn btn-secondary">Unduh CV Saya</a>
+                        <p>Halo! First, allow me to introduce myself 😊 </p>
+                        <p>Saya Berliana Elfada, biasanya dipanggil Berlin. Sebagai seorang fresh graduate Sarjana Terapan Teknik Informatika, saya punya minat besar di bidang software development, data processing, UI/UX design, serta sistem berbasis AI/ML.
+                            Selama studi, saya aktif mengerjakan berbagai proyek, mulai dari aplikasi web dan mobile (analisis, desain, hingga pengujian) sampai ke riset AI/ML untuk pemodelan prediktif dan pengolahan data.
+                            Saya antusias untuk terus belajar, berkolaborasi dalam tim, dan berkontribusi menciptakan solusi digital yang inovatif, efisien, dan bermanfaat.
+                        </p>
+                    <a href="CV_Berliana Elfada.pdf" target="_blank" class="btn btn-secondary">Unduh CV Saya</a>
+                    <a href="#portfolio" class="btn btn-secondary">Lihat Proyek Saya</a>
                     </div>
                     <div class="about-image">
-                        <img src="https://via.placeholder.com/300x400" alt="Ilustrasi Tentang Saya">
+                        <img src="ber.JPG" alt="Ilustrasi Tentang Saya">
                     </div>
                 </div>
             </div>
@@ -889,37 +920,40 @@
                         <h3>Politeknik Negeri Bandung</h3>
                         <p class="subtitle">Bachelor of Applied Science in IT (S. Tr. Kom) - D4 Teknik Informatika</p>
                         <p class="duration">Bandung, Jawa Barat | 2021 - 2025</p>
-                        <ul>
-                            <li>Mempelajari Pengembangan Perangkat Lunak, Desain Algoritma, Manajemen Basis Data, UI/UX, Analisis Sistem, Kualitas & Pengujian Perangkat Lunak, Pemodelan Prediktif, dan Pemrosesan Data Real-Time.</li>
-                        </ul>
+                         <h4>Fokus Studi:</h4>
+                            <ul>
+                            <li>Software Development & Desain Algoritma</li>
+                            <li>Manajemen Basis Data & Analisis Sistem</li>
+                            <li>UI/UX Design & Pengujian Software</li>
+                            <li>Pemodelan Prediktif & Pemrosesan Data Real-Time</li>
+                            </ul>
                     </div>
                 </div>
+
+                <div class="item-list">
+                    <div class="list-item">
+                        <h3>SMA Negeri 9 Bandung</h3>
+                        <p class="subtitle">IPA</p>
+                        <p class="duration">Bandung, Jawa Barat | 2018 - 2021</p>
+                    </div>
+                </div>
+
+                <div class="item-list">
+                    <div class="list-item">
+                        <h3>SMP Negeri 1 Bandung</h3>
+                        <p class="duration">Bandung, Jawa Barat | 2015 - 2018</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section id="experience" class="experience">
             <div class="container">
                 <h2>Pengalaman</h2>
-
                 <div class="experience-item">
                     <div class="experience-header">
-                        <img src="https://via.placeholder.com/70" alt="Logo PT LEN IoT" class="company-logo">
-                        <div>
-                            <h3>Proyek Akhir dengan PT LEN IoT: Sistem Estimasi Trajektori Kapal</h3>
-                            <p class="duration">Feb 2025 - Jul 2025</p>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Mengembangkan estimasi trajektori kapal menggunakan Extended Kalman Filter (EKF) dengan pemodelan yang sadar kelengkungan.</li>
-                        <li>Menerapkan penyesuaian adaptif matriks kovarians (Q dan R) untuk meningkatkan akurasi prediksi.</li>
-                        <li>Membangun Aplikasi berbasis MATLAB untuk Estimasi Prediktif untuk tujuan simulasi.</li>
-                        <li>Melakukan penelitian bekerja sama dengan PT LEN Industri untuk mengeksplorasi prediksi sistem.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <img src="https://via.placeholder.com/70" alt="Logo CV Garuda Infinity Kreasindo" class="company-logo">
+                        <img src="gik.jpg" alt="Logo CV Garuda Infinity Kreasindo" class="company-logo">
                         <div>
                             <h3>Software Quality Assurance Tester - CV Garuda Infinity Kreasindo (Internship)</h3>
                             <p class="duration">Juni 2024 - Okt 2024</p>
@@ -1049,14 +1083,15 @@
             <div class="container">
                 <h2>Sertifikasi</h2>
                 <div class="item-list">
-                    <div class="list-item">
+                   <div class="list-item">
                         <h3>Politeknik Negeri Bandung</h3>
                         <p class="duration">2024</p>
                         <ul>
-                            <li>Membuat makalah "Real-time Convolutional Neural Networks for Emotion Classification Integrated with YouTube Content Recommendation Based on Emotion".</li>
+                            Membuat makalah "Real-time Convolutional Neural Networks for Emotion Classification Integrated with YouTube Content Recommendation Based on Emotion".
                         </ul>
+                        <img src="SKPI.jpg" alt="Sertifikat Seminar CNNs" class="certificate">
                     </div>
-                    <div class="list-item">
+
                         <h3>KOMINFO</h3>
                         <p class="duration">2021</p>
                         <ul>
